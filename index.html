@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Calculator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.min.js"></script>
+
+  <link rel="stylesheet" href="stylecalculator.css">
+</head>
+<body>
+  <div class="theme-toggle">
+    <label>
+      <input type="checkbox" id="themeSwitcher"> Dark Mode
+    </label>
+  </div>
+
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    
+
+<div id="history">
+  <h3>History</h3>
+  <ul id="historyList"></ul>
+</div>
+    
+    <div class="buttons">
+      
+      <button class="clear">AC</button>
+      <button class="delete">←</button>
+      <button>(</button>
+      <button>)</button>
+      <!-- Scientific Row 1 -->
+       
+
+<button class="sci-fn">√</button>
+<button class="sci-fn">x²</button>
+<button class="sci-fn">xʸ</button>
+
+<!-- Scientific Row 2 -->
+<button class="sci-fn">sin</button>
+<button class="sci-fn">cos</button>
+<button class="sci-fn">tan</button>
+<button class="sci-fn">log</button>
+<button class="sci-fn">%</button>
+
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="operator">/</button>
+
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button class="operator">*</button>
+
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button class="operator">-</button>
+
+      <button>0</button>
+      <button>.</button>
+      <button class="equal">=</button>
+      <button class="operator">+</button>
+    </div>
+  </div>
+
+  <script src="scriptcalculator.js"></script>
+</body>
+</html>
